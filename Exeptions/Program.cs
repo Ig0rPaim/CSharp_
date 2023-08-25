@@ -68,7 +68,7 @@ internal class Program
         catch (NoBalanceExeption e)
         {
             Console.WriteLine("Withdraw error: " + e.Message);
-        }
+        } 
 
     }
 }
